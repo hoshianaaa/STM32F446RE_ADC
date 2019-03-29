@@ -116,3 +116,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 4 4 2019-03-29 11:52:38.270
 !MESSAGE 参照部分はまだ存在しません: org.eclipse.ui.views.TaskList。
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-29 11:58:04.765
+!MESSAGE Indexed 'F401_ADC' (22 sources, 47 headers) in 2.1 sec: 5,336 declarations; 19,327 references; 26 unresolved inclusions; 247 syntax errors; 5,316 unresolved names (18%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-03-29 11:58:08.368
+!MESSAGE Indexed 'F401_ADC' (22 sources, 99 headers) in 2.06 sec: 7,721 declarations; 28,794 references; 2 unresolved inclusions; 37 syntax errors; 145 unresolved names (0.4%)
