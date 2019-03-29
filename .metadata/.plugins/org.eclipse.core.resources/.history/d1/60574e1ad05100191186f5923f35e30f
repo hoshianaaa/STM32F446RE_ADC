@@ -46,7 +46,6 @@ ADC_HandleTypeDef hadc1;
 
 /* USER CODE BEGIN PV */
 __IO uint32_t analogValue;
-__IO float temp;
 
 /* USER CODE END PV */
 
@@ -111,7 +110,6 @@ int main(void)
 	      analogValue = HAL_ADC_GetValue(&hadc1);
 	      temp = ((float)analogValue) / 4095 * 3300;
 	      temp = ((temp - 760.0) / 2.5) + 25;
-	      analogValue = temp;
 	    }
 	    HAL_ADC_Stop(&hadc1);
   }

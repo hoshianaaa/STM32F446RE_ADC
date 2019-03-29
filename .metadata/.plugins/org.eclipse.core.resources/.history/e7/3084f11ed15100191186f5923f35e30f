@@ -111,7 +111,6 @@ int main(void)
 	      analogValue = HAL_ADC_GetValue(&hadc1);
 	      temp = ((float)analogValue) / 4095 * 3300;
 	      temp = ((temp - 760.0) / 2.5) + 25;
-	      analogValue = temp;
 	    }
 	    HAL_ADC_Stop(&hadc1);
   }
